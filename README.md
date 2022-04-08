@@ -28,7 +28,7 @@ Before you begin, make sure your development environment includes
 npm install
 ```
 
-3. Run
+## Run
 
 ```cli
 npm start
@@ -37,9 +37,7 @@ npm start
 ## Use ngrok to make local running instance externally accessible
 
 - [Microsoft docs - Locally hosted](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/debug)
-- ngrok [Download](https://ngrok.com/download)
-
-Setup sample project with ngrok
+- [ngrok Download](https://ngrok.com/download)
 
 Install ngrok via Chocolatey
 
