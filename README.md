@@ -1,6 +1,6 @@
 # WebViewer - Microsoft Teams Sample
 
-[WebViewer](https://www.pdftron.com/documentation/web/) is a powerful JavaScript-based PDF Library that's part of the [PDFTron PDF SDK](https://www.pdftron.com). It provides a slick out-of-the-box responsive UI that interacts with the core library to view, annotate and manipulate PDFs that can be embedded into any web project.
+[WebViewer](https://docs.apryse.com/documentation/web/) is a powerful JavaScript-based PDF Library that is part of the [Apryse SDK](https://apryse.com/). It provides a slick out-of-the-box responsive UI that interacts with the core library to view, annotate and manipulate PDFs that can be embedded into web projects.
 
 ![WebViewer UI](https://www.pdftron.com/downloads/pl/webviewer-ui.png)
 
@@ -8,7 +8,7 @@ This repo is specifically designed for any users interested in integrating WebVi
 
 ## Demo
 
-You can explore all of the functionality in our [showcase](https://www.pdftron.com/webviewer/demo/).
+You can explore all of the functionality in our [showcase](https://showcase.apryse.com/).
 
 ## Initial setup
 
@@ -17,7 +17,7 @@ Before you begin, make sure your development environment includes
 - [VS Code](https://code.visualstudio.com/download)
 - [VS Code Teams Toolkit Extension](https://docs.microsoft.com/en-us/microsoftteams/platform/toolkit/teams-toolkit-fundamentals)
 - You need a **Microsoft 365 account** and if you do not have one, you can sign up for the free [**Microsoft 365 Developer Program**](https://docs.microsoft.com/en-us/microsoftteams/platform/toolkit/teams-toolkit-fundamentals)
-- [Node.js](https://nodejs.org/en/download/)
+- [Node.js](https://nodejs.org/en/download/) (This sample requires Node version 16.)
 
 ## Install
 
@@ -25,7 +25,7 @@ Before you begin, make sure your development environment includes
 2. Install dependencies
 
 ```cli
-npm install
+npm install --legacy-peer-deps
 ```
 
 ## Run
@@ -89,7 +89,7 @@ Note: If there is an issue with Sideloading not being enabled, you must sign int
 
 ## Resources
 
-- [PDFTron Angular Getting Started](https://www.pdftron.com/documentation/web/get-started/angular/)
+- [Apryse Angular Getting Started](https://docs.apryse.com/web/get-started/angular/)
 - [Microsoft docs - Consideration for Teams integration](https://docs.microsoft.com/en-us/microsoftteams/platform/samples/integrating-web-apps)
 - [Microsoft docs - Overview](https://docs.microsoft.com/en-us/microsoftteams/platform/mstdd-landing)
 - [Microsoft docs - Get started overview](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/get-started-overview)
