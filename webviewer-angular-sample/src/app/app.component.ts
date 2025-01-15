@@ -10,7 +10,7 @@ import WebViewer, { WebViewerInstance } from '@pdftron/webviewer';
 export class AppComponent implements OnInit, AfterViewInit {
   @ViewChild('viewer') viewer: ElementRef;
   wvInstance: WebViewerInstance;
-  @Output() coreControlsEvent:EventEmitter<string> = new EventEmitter(); 
+  @Output() coreControlsEvent:EventEmitter<string> = new EventEmitter();
 
   private documentLoaded$: Subject<void>;
 
@@ -20,14 +20,14 @@ export class AppComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit(): void {
 
-    WebViewer({
+    WebViewer.Iframe({
       path: '../lib',
       initialDoc: '../files/webviewer-demo-annotated.pdf'
     }, this.viewer.nativeElement).then(instance => {
 
       const { Feature } = instance.UI;
       instance.UI.enableFeatures([Feature.FilePicker]);
-      
+
       this.wvInstance = instance;
 
       this.coreControlsEvent.emit(instance.UI.LayoutMode.Single);
